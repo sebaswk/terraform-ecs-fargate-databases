@@ -1,0 +1,15 @@
+variable "project_name" {}
+variable "key_account" {}
+variable "subnets_asg_cluster" {}
+variable "security_group_asg_cluster" {}
+variable "tg_ecs" {}
+variable "instance_type_ecs" {}
+variable "ami_id_ecs_cluster" {}
+variable "app_image" {}
+variable "app_logs" {}
+variable "target_group_port" {}
+variable "app_count" {}
+variable "task_cpu" {}
+variable "task_memory" {}
+variable "tg_service" {}
+variable "alb_listener_ecs" {}
